@@ -1,0 +1,26 @@
+.part5 {
+  display: flex;
+  flex-direction: column;
+}
+
+.subscribe {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.emailRegister {
+  background: #f5f7fa;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  color: #4da0fd;
+  outline: none;
+}

@@ -1,0 +1,27 @@
+.part3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.texts6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.title3 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.textstyle4 {
+  font-family: "Karla";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #ffffff;
+}
