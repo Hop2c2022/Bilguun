@@ -1,13 +1,14 @@
-import { FacebookIcon } from "../component/Facebook";
-import { InstagramIcon } from "../component/Instagram";
-import { TwitterIcon } from "../component/Twitter";
-import "../css/Part1.css";
+import { FacebookIcon } from "../Facebook";
+import { InstagramIcon } from "../Instagram";
+import { TwitterIcon } from "../Twitter";
+import "./../../css/PartsCss/Part1.css";
+
 export const PartOne = () => {
   return (
     <div className="part1">
       <div className="logo">
-        <div className="text">team</div>
-        <div className="item"></div>
+        <div className="text3">team</div>
+        <div className="item2"></div>
       </div>
       <div className="usages">
         <div className="icons">

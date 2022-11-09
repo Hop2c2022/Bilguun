@@ -6,16 +6,20 @@ import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
 import { Products } from "./pages/Products";
 import { Services } from "./pages/Services";
+import { Post } from "./pages/Post";
+import { BlogPost } from "./pages/BlogPost";
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/contact" element={Contact}></Route>
-        <Route path="/login" element={Login}></Route>
+        <Route path="/blogposts" element={BlogPost} />
+        <Route path="/posts" element={Post} />
         <Route path="/products" element={Products}></Route>
         <Route path="/services" element={Services}></Route>
+        <Route path="/contacts" element={Contact} />
+        <Route path="/login" element={Login} />
       </Routes>
     </BrowserRouter>
   );

@@ -1,6 +1,7 @@
 .part5 {
   display: flex;
   flex-direction: column;
+  margin-bottom: 115px;
 }
 
 .subscribe {
@@ -10,9 +11,12 @@
   font-size: 18px;
   line-height: 29px;
   color: #ffffff;
+  margin-bottom: 17px;
 }
 
 .emailRegister {
+  width: 297px;
+  height: 56px;
   background: #f5f7fa;
   font-family: "Mulish";
   font-style: normal;
@@ -23,4 +27,5 @@
   align-items: center;
   color: #4da0fd;
   outline: none;
+  padding-left: 20px;
 }
