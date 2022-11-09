@@ -1,28 +1,17 @@
 import "../css/Home.css";
 import React, { useState, useRef } from "react";
 import { Tab } from "./../component/Tabs";
-import { PartOne } from "../component/Part1";
-import { PartTwo } from "../component/Part2";
-import { PartThree } from "../component/Part3";
-import { PartFour } from "../component/Part4";
-import { PartFive } from "../component/Part5";
+import { PartOne } from "../component/parts/Part1";
+import { PartTwo } from "../component/parts/Part2";
+import { PartThree } from "../component/parts/Part3";
+import { PartFour } from "../component/parts/Part4";
+import { PartFive } from "../component/parts/Part5";
+import { Header } from "../component/Header";
 
 export const Home = () => {
   return (
     <div className="container">
-      <div className="header">
-        <div className="logo">
-          <div className="text">team</div>
-          <div className="item"></div>
-        </div>
-        <div className="parts">
-          <div className="text1 decoration products">Products</div>
-          <div className="text1 decoration services">Services</div>
-          <div className="text1 decoration contact">Contact</div>
-          <div className="text1 decoration login">Log In</div>
-          <div className="text2 getaccess">Get Access</div>
-        </div>
-      </div>
+      <Header />
       <div className="bodypart">
         <div className="bigtext">Instant collaborations for remote teams</div>
         <div className="smalltext">
@@ -45,10 +34,26 @@ export const Home = () => {
           </div>
           <div className="learnmore">Learn more</div>
         </div>
-        <div className="meetings"></div>
+        <div className="meetings">
+          <img
+            style={{
+              width: "50%",
+              height: "30%",
+              display: "flex",
+            }}
+            src="assets/meetings.png"
+            alt=""
+          />
+        </div>
       </div>
       <div className="torso design2">
-        <div className="background2"></div>
+        <div className="anotherwoman">
+          <img
+            style={{ width: "40%", height: "20%", display: "flex" }}
+            src="assets/anotherwomanidk.png"
+            alt=""
+          ></img>
+        </div>
         <div className="texts2 textcolor">
           <div className="bigtext3">Simple task management</div>
           <div className="smalltext3 textcolor">

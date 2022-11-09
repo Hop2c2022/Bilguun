@@ -5,7 +5,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url("../../public/assets/background.jpg");
+  background-image: url("../../public/assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
@@ -13,91 +13,12 @@
   background-color: #f5f7fa;
 }
 
+a {
+  color: inherit;
+}
+
 .textcolor {
   color: #000000;
-}
-
-.header {
-  width: 100vw;
-  height: 70px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-}
-
-.logo {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-}
-
-.text {
-  font-style: normal;
-  font-weight: 800;
-  font-size: 30px;
-  line-height: 38px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
-}
-
-.item {
-  width: 8px;
-  height: 8px;
-  background: #0bbef2;
-  margin-bottom: 7.5px;
-  margin-left: 3px;
-}
-
-.parts {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.text1 {
-  height: 28px;
-  margin-left: 15px;
-  margin-right: 15px;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  cursor: pointer;
-}
-
-.text2 {
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-}
-
-.text1:hover {
-  text-decoration: underline;
-}
-
-.getaccess {
-  height: 56px;
-  width: 128px;
-  border: 2px solid #a09c98;
-  border-radius: 4px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #a09c98;
-  margin-left: 10px;
-}
-
-.decoration {
-  text-decoration-line: underline;
-  text-decoration-color: #6d7d8b;
 }
 
 .bodypart {
@@ -245,10 +166,9 @@
 }
 
 .meetings {
-  width: 645px;
-  height: 780px;
-  background-image: url("../../public/assets/meetings.jpg");
-  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .design2 {
@@ -258,11 +178,9 @@
   justify-content: space-between;
 }
 
-.background2 {
-  width: 555px;
-  height: 560px;
-  background-image: url("../../public/assets/anotherwomanidk.jpg");
-  background-repeat: no-repeat;
+.anotherwoman {
+  display: flex;
+  justify-content: flex-start;
 }
 
 .texts2 {
@@ -271,7 +189,6 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-right: 1000px;
 }
 
 .bigtext3 {

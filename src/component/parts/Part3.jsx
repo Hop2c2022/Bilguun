@@ -1,4 +1,4 @@
-import "./../css/Part3.css";
+import "./../../css/PartsCss/Part3.css";
 
 export const PartThree = () => {
   return (
