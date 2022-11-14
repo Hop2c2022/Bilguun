@@ -1,13 +1,16 @@
-import "../css/Tabs.css";
+import "../css/Tab1.css";
 import { StarIcon } from "./Star";
 
-export const Tab = () => {
+export const Tabs1 = () => {
   return (
     <div className="tab1">
       <div className="stars">
         {" "}
-        {[1, 2, 3, 4, 5].map((el) => (
-          <StarIcon width={18} height={18} />
+        {[1, 2, 3, 4, 5].map((el, i) => (
+          <div key={i}>
+            {" "}
+            <StarIcon width={18} height={18} />
+          </div>
         ))}
       </div>
       <div className="reviewtext textcolor">

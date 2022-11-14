@@ -1,12 +1,7 @@
 import "../css/Home.css";
-import React, { useState, useRef } from "react";
-import { Tab } from "./../component/Tabs";
-import { PartOne } from "../component/parts/Part1";
-import { PartTwo } from "../component/parts/Part2";
-import { PartThree } from "../component/parts/Part3";
-import { PartFour } from "../component/parts/Part4";
-import { PartFive } from "../component/parts/Part5";
+import { Tabs1 } from "./../component/Tab1";
 import { Header } from "../component/Header";
+import { Footer } from "../component/Footer";
 
 export const Home = () => {
   return (
@@ -86,20 +81,14 @@ export const Home = () => {
         </div>
         <div className="bodypart1">
           <div className="reviews">
-            <Tab />
-            <Tab />
-            <Tab />
-            <Tab />
-            <Tab />
+            <Tabs1 />
+            <Tabs1 />
+            <Tabs1 />
+            <Tabs1 />
+            <Tabs1 />
           </div>
         </div>
-        <div className="endpart">
-          <PartOne />
-          <PartTwo />
-          <PartThree />
-          <PartFour />
-          <PartFive />
-        </div>
+        <Footer />
       </div>
     </div>
   );

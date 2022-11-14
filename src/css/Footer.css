@@ -1,0 +1,9 @@
+.endpart {
+  width: 100%;
+  height: 336px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #252b3b;
+}
