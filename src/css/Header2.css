@@ -15,6 +15,7 @@
   display: flex;
   flex-direction: row;
   align-items: flex-end;
+  outline: none;
 }
 
 .text11 {
@@ -78,10 +79,10 @@
   box-sizing: border-box;
 }
 
-.getaccess:hover {
-  border: 2px solid rgba(77, 160, 253, 0.42);
+.getaccess2:hover {
+  border: 2px solid #a09c98;
   border-radius: 4px;
-  color: rgba(77, 160, 253, 0.42);
+  color: #a09c98;
   box-sizing: border-box;
 }
 

@@ -1,6 +1,176 @@
-.container {
+.postcontainer {
   margin: 0;
   padding: 0;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  font-family: "Mulish";
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.postbodypart {
+  width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.posttitle {
+  width: 700px;
+  height: 160px;
+  font-family: "Mukta";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 80px;
+  display: flex;
+  align-items: center;
+  color: #25313c;
+  margin-left: 100px;
+  margin-bottom: 23px;
+}
+
+.postedby {
+  width: 339px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 100px;
+  margin-bottom: 61px;
+}
+
+.postprofile {
+  width: 56px;
+  height: 56px;
+  background-color: salmon;
+  border-radius: 50px;
+}
+
+.posttexts {
+  width: 275px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.postprofilename {
+  width: 88px;
+  height: 21px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #6d7d8b;
+}
+
+.postspace {
+  width: 4px;
+  height: 21px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #bbc8d4;
+}
+
+.postprofiletime {
+  width: 117px;
+  height: 21px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #6d7d8b;
+}
+
+.clapping {
+  width: 900px;
+  height: 450px;
+}
+
+.posttexts2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 700px;
+  height: 700px;
+  margin-left: 100px;
+}
+
+.posttext {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  color: #25313c;
+}
+
+.writtenby {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+}
+
+.posttexts3 {
+  height: 80px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.postwritten {
+  width: 70px;
+  height: 21px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #1e2742;
+}
+
+.postwritername {
+  width: 150px;
+  height: 30px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #25313c;
+  margin-bottom: 8px;
+}
+
+.postteamapp {
+  width: 100px;
+  height: 21px;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  color: #989898;
 }

@@ -1,10 +1,12 @@
 import "./../css/BlogPost.css";
 import { Header2 } from "../component/Header2";
+import { Footer } from "../component/Footer";
 import { Tabs2 } from "../component/Tab2";
+import { Arrow1 } from "../component/Arrows/Arrow1";
 
 export const BlogPost = () => {
   return (
-    <div className="container1">
+    <div className="blogcontainer">
       <Header2 />
       <div className="blogbodypart">
         <div className="blogtexts">
@@ -30,8 +32,12 @@ export const BlogPost = () => {
             <Tabs2 />
           </div>
         </div>
-        <div className="blognext">Next</div>
+        <div className="blognext">
+          <div className="bloginsidetext">Next</div>
+          <Arrow1 />
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };

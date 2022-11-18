@@ -2,6 +2,7 @@ import "../css/Home.css";
 import { Tabs1 } from "./../component/Tab1";
 import { Header } from "../component/Header";
 import { Footer } from "../component/Footer";
+import { Arrow } from "../component/Arrows/Arrow";
 
 export const Home = () => {
   return (
@@ -27,7 +28,10 @@ export const Home = () => {
             conversations focused in channels, and simplify all your
             communication into one place.
           </div>
-          <div className="learnmore">Learn more</div>
+          <div className="learn">
+            <div className="learnmore">Learn more</div>
+            <Arrow />
+          </div>
         </div>
         <div className="meetings">
           <img
@@ -44,8 +48,8 @@ export const Home = () => {
       <div className="torso design2">
         <div className="anotherwoman">
           <img
-            style={{ width: "40%", height: "20%", display: "flex" }}
-            src="assets/anotherwomanidk.png"
+            style={{ width: "100%", height: "100%", display: "flex" }}
+            src="assets/anotherwoman.png"
             alt=""
           ></img>
         </div>
@@ -57,7 +61,10 @@ export const Home = () => {
             conversations focused in channels, and simplify all your
             communication into one place.
           </div>
-          <div className="learnmore">Learn more</div>
+          <div className="learn">
+            <div className="learnmore">Learn more</div>
+            <Arrow />
+          </div>
         </div>
       </div>
       <div className="torso design3">
@@ -71,9 +78,18 @@ export const Home = () => {
             conversations focused in channels, and simplify all your
             communication into one place.
           </div>
-          <div className="learnmore">Learn more</div>
+          <div className="learn">
+            <div className="learnmore">Learn more</div>
+            <Arrow />
+          </div>
         </div>
-        <div className="background3"></div>
+        <div className="background3">
+          <img
+            style={{ width: "120%", height: "110%", display: "flex" }}
+            src="assets/background3.png"
+            alt=""
+          ></img>
+        </div>
       </div>
       <div className="torso design4">
         <div className="headpart">
