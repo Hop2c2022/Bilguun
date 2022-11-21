@@ -55,6 +55,8 @@ export const Post = () => {
             <div className="postteamapp">CEO Team App</div>
           </div>
         </div>
+        <div className="postline"></div>
+        <div className="postcomments"></div>
       </div>
     </div>
   );
