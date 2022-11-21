@@ -17,6 +17,7 @@
   align-items: flex-start;
   justify-content: center;
   margin-top: 150px;
+  margin-bottom: 160px;
 }
 
 .posttitle {
@@ -193,4 +194,34 @@
   height: 191px;
   display: flex;
   flex-direction: column;
+  margin-left: 100px;
+}
+
+.postjoinconversation {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  color: #6d7d8b;
+  margin-bottom: 13px;
+}
+
+.postcommentsection {
+  display: flex;
+  flex-direction: row;
+}
+
+.postcommenttyper {
+  height: 148px;
+  width: 630px;
+  border-radius: 4px;
+  outline: none;
+  margin-left: 15px;
+}
+
+input::placeholder {
+  padding-bottom: 100px;
 }

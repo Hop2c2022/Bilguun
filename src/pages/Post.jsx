@@ -1,5 +1,6 @@
 import "./../css/Post.css";
 import { Header2 } from "../component/Header2";
+import { Footer } from "../component/Footer";
 
 export const Post = () => {
   return (
@@ -56,8 +57,19 @@ export const Post = () => {
           </div>
         </div>
         <div className="postline"></div>
-        <div className="postcomments"></div>
+        <div className="postcomments">
+          <div className="postjoinconversation">Join Conversation</div>
+          <div className="postcommentsection">
+            <div className="postprofile"></div>
+            <input
+              type="text"
+              className="postcommenttyper"
+              placeholder="Comments"
+            ></input>
+          </div>
+        </div>
       </div>
+      <Footer />
     </div>
   );
 };
