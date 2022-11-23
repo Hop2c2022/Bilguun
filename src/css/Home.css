@@ -1,48 +1,79 @@
-.container {
+.homecontainer {
   margin: 0;
   padding: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   flex-direction: column;
-  background-image: url("../../public/assets/background.png");
+  background-color: #f5f7fa;
+  background-image: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(0, 0, 0, 0) 76.04%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url("../../public/assets/background.png");
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
   font-family: "Mulish";
-  background-color: #f5f7fa;
 }
 
 a {
   color: inherit;
 }
 
-.textcolor {
+.bigtextstyle {
+  width: 398px;
+  height: 120px;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
   color: #000000;
 }
 
-.bodypart {
-  min-height: 95vh;
+.smalltextstyle {
+  width: 465px;
+  height: 145px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  color: #000000;
+}
+
+.homebodypart {
+  min-height: 93vh;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.bigtext {
-  width: 545px;
+.torsopart {
+  display: flex;
+  flex-direction: column;
+}
+
+.homebigtext {
+  width: 565px;
   height: 120px;
   font-family: "Work Sans";
   font-style: normal;
   font-weight: 600;
-  font-size: 50px;
+  font-size: 52px;
   line-height: 56px;
   display: flex;
   align-items: center;
   color: #ffffff;
-  margin-left: 150px;
+  margin-left: 140px;
+  margin-bottom: 22px;
 }
 
-.smalltext {
+.homesmalltext {
   width: 350px;
   height: 58px;
   font-family: "Mulish";
@@ -53,12 +84,12 @@ a {
   display: flex;
   align-items: center;
   color: #ffffff;
-  margin-left: 150px;
-  margin-top: 40px;
+  margin-left: 140px;
+  margin-bottom: 70px;
   letter-spacing: 0.5px;
 }
 
-.emailsection {
+.homeemailsection {
   display: flex;
   flex-direction: row;
 }
@@ -69,8 +100,6 @@ a {
   border: 2px solid #bbc8d4;
   border-radius: 4px;
   background: #ffffff;
-  margin-left: 150px;
-  margin-top: 70px;
   padding-left: 20px;
   box-sizing: border-box;
   font-family: "Mulish";
@@ -80,6 +109,7 @@ a {
   line-height: 28px;
   color: #6d7d8b;
   outline: none;
+  margin-left: 140px;
 }
 
 .earlyaccess {
@@ -90,7 +120,6 @@ a {
   height: 56px;
   background: #0bbef2;
   border-radius: 4px;
-  margin-top: 70px;
   margin-left: 15px;
   color: #ffffff;
   font-family: "Mulish";
@@ -108,6 +137,7 @@ a {
 .torso {
   min-height: 100vh;
   width: 100%;
+  background-color: #f5f7fa;
 }
 
 .design {
@@ -123,54 +153,7 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin-left: 200px;
-}
-
-.bigtext2 {
-  width: 398px;
-  height: 120px;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
-  color: #000000;
-}
-
-.smalltext2 {
-  width: 465px;
-  height: 145px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-  color: #182d40;
-}
-
-.learn {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: flex-start;
-  cursor: pointer;
-}
-
-.learnmore {
-  width: 87px;
-  height: 28px;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 28px;
-  display: flex;
-  align-items: center;
-  text-decoration-line: underline;
-  color: #4da0fd;
-  margin-right: 5px;
-  margin-bottom: 4px;
+  margin-left: 140px;
 }
 
 .meetings {
@@ -201,28 +184,6 @@ a {
   margin-right: 800px;
 }
 
-.bigtext3 {
-  width: 398px;
-  height: 120px;
-  font-style: normal;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
-}
-
-.smalltext3 {
-  width: 465px;
-  height: 145px;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
-}
-
 .design3 {
   display: flex;
   flex-direction: row;
@@ -236,26 +197,6 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-}
-
-.bigtext4 {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 800;
-  font-size: 48px;
-  line-height: 60px;
-  display: flex;
-  align-items: center;
-}
-
-.smalltext4 {
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 29px;
-  display: flex;
-  align-items: center;
 }
 
 .background3 {

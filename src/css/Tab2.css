@@ -10,7 +10,7 @@
   box-shadow: 8px 9px 12px #d8d8d8;
 }
 
-.photo2 {
+.tab2photo {
   width: 363px;
   height: 147px;
   background-color: black;
@@ -18,26 +18,28 @@
   border-top-right-radius: 30px;
 }
 
-.texts {
+.tab2texts {
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.headertitle {
-  width: 290px;
+.tab2title {
+  width: 300px;
   height: 58px;
+  font-family: "Cabin";
   font-style: normal;
-  font-size: 23px;
+  font-weight: 500;
+  font-size: 24px;
   line-height: 29px;
   display: flex;
   align-items: center;
-  justify-content: center;
   color: #25313c;
+  margin-bottom: 25px;
 }
 
-.minitext1 {
+.tab2minitext {
   width: 290px;
-  height: 58px;
+  height: 42px;
   font-style: normal;
   font-size: 14px;
   line-height: 21px;
@@ -46,18 +48,7 @@
   color: #25313c;
 }
 
-.minitext2 {
-  width: 290px;
-  height: 45px;
-  font-style: normal;
-  font-size: 14px;
-  line-height: 21px;
-  display: flex;
-  align-items: flex-end;
-  color: #25313c;
-}
-
-.profile2 {
+.tab2profile {
   width: 290px;
   display: flex;
   flex-direction: row;
@@ -65,14 +56,14 @@
   margin-bottom: 30px;
 }
 
-.test2 {
+.tab2pfp {
   width: 45px;
   height: 45px;
   background-color: black;
   border-radius: 50px;
 }
 
-.name2 {
+.tab2name {
   display: flex;
   flex-direction: row;
   justify-content: center;

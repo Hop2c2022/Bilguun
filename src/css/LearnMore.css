@@ -1,0 +1,18 @@
+.learn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.learnmore {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+  color: #4da0fd;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}

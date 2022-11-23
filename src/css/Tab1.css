@@ -3,10 +3,8 @@
   height: 374px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
   background-color: #ffffff;
-  box-shadow: 1px 1px 9px 7px #d8d8d8;
+  box-shadow: 1px 1px 9px 4px #d8d8d8;
   margin-right: 15px;
   margin-left: 15px;
 }
@@ -18,10 +16,12 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-right: 180px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-bottom: 20px;
 }
 
-.reviewtext {
+.tab1reviewtext {
   width: 291px;
   height: 154px;
   font-family: "Mulish";
@@ -31,9 +31,27 @@
   line-height: 29px;
   display: flex;
   align-items: center;
+  margin-left: 33px;
+  margin-bottom: 50px;
 }
 
-.name {
+.tab1profile {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 291px;
+  height: 56px;
+  margin-left: 40px;
+}
+
+.tab1pfp {
+  width: 56px;
+  height: 56px;
+  border-radius: 50px;
+  background-color: black;
+}
+
+.tab1name {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 600;
@@ -41,26 +59,5 @@
   line-height: 163.15%;
   display: flex;
   align-items: center;
-}
-
-.profile {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
-  width: 291px;
-  height: 56px;
-  margin-right: 80px;
-}
-
-.pfp1 {
-  border-radius: 5px;
-  background-color: black;
-}
-
-.test1 {
-  width: 56px;
-  height: 56px;
-  border-radius: 50px;
-  background-color: black;
+  margin-left: 20px;
 }
